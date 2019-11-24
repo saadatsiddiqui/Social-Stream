@@ -56,7 +56,12 @@
             Username <input type="text">
             Password <input type="password">
             Before clicking Submit below, please read Terms of Conditions<input type="checkbox"> <a href="../toc.html">Terms of Conditions</a>
-            <input type="submit">
+            <input id="click" onclick="run()" type="submit">
+            <script>
+                function run() {
+                    document.getElementById("click").innerHTML = alert("Thank you for submitting your information.\nPlease check your email")
+                }
+            </script>
         </div>
         </form>
   
