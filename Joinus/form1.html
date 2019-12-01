@@ -8,62 +8,112 @@
     <link rel="stylesheet" href="../css/styles.css" type="text/css">
 </head>
 <body>
-    <div class="menu">
-                <a href="../Homepage/index.html"><img src="../images/logo4.png" alt=""></a>
-                <table align="right">
-                    <tr>
-                        <td><a href="../events/events.html">Events</a></a></td>
-                        <td>Emunities</td>
-                        <td>What's New</td>
-                        <td>About Us</td>
-                        <td> <a href="../joinus/joinus.html">Join</a></td>         
-                    </tr>
-                </table>
+   <!--Main Menu Starts Here-->
+   <div class="menu">
+        <a href="../Homepage/index.html"><img src="../images/logo4.png" alt=""></a>
+        <table align="right">
+            <tr>
+                <td><a href="../events/events.html">Events</a></a></td>
+                <td><a href="../Amenities/Amenities.html">Amenities</a></td>
+                <td>What's New</td>
+                <td>About Us</td>
+                <td> <a href="../joinus/joinus.html">Join</a></td>     
+                <td> <a href="../homepage/login.html"><img src="../images/account.png" alt=""></a></td>    
+            </tr>
+        </table>
     </div>
-               <h2>Enter your details below</h2>
-    <div class="box">
+        <!--End of Main Menu-->
+    <h2 style="color: blue;font-size: 32px;font-family: Arial, Helvetica, sans-serif;" >Please enter your details below</h2>
+    <div class="data-entry">
       <form action="../homepage/index.html" >
-        <h3>Personal Information</h3>
-        <hr>
-            Salutation <select name="Salutation" id="">
-                <option value="Mr">Mr</option>
-                <option value="Mrs">Mrs</option>
-                <option value="Miss">Miss</option>
-                <option value="Ms">Ms</option>
-                <option value="Dr">Dr</option>
-            </select>
-            Name <input type="text">
-            Surname <input type="text">
-            Date of birth <input type="date">
-            CNIC Number <input type="text">
-        <hr>
-            <h3>Address Information</h3>
-         <hr>
-             Address <input type="text" size="25">
-             Address 2 <input type="text" size="25">
-             City <input type="text">
-             Country <input type="text">
-        <hr>
-            <h3>Contact Information</h3>
-       <hr> 
-            Primary Phone <input type="text">
-            Secondary Phone <input type="text">
-            Primary Email <input type="text" size 20>
-            Secondary Email <input type="text" size="20">
-        <hr>
-            <h3>User ID Information</h3>
-        <hr>
-            Username <input type="text">
-            Password <input type="password">
-            Before clicking Submit below, please read Terms of Conditions<input type="checkbox"> <a href="../toc.html">Terms of Conditions</a>
+        <fieldset>
+            <legend>Personal Details</legend>
+                <p>Salutation <select name="Salutation" id="">
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Ms">Ms</option>
+                        <option value="Dr">Dr</option>
+                    </select>
+                </p>
+                <p>First Name <input type="text"></p>
+                <p>Last Name <input type="text"></p>
+                <p>Date of birth <input type="date"></p>
+                <p>CNIC Number <input type="text"></p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Address Details</legend>
+             <p>Address <input type="text" size="25"></p>
+             <p>Address 2 <input type="text" size="25"></p>
+             <p>City <input type="text"></p>
+             <p>Country <input type="text"></p>
+        </fieldset><br><br>
+         <fieldset>
+            <legend>Contact Details</legend>
+            <p>Primary Phone <input type="text"></p>
+            <p> Secondary Phone <input type="text"></p>
+            <p> Primary Email <input type="text" size 20></p>
+            <p>  Secondary Email <input type="text" size="20"></p>
+           
+         </fieldset><br><br>
+        </div>
+        <div class="note">
+            <p>Before clicking Submit below, please review the information you have entered and read Terms and Conditions </p>
+            <p><a href="../toc.html">Terms and Conditions</a></p>
+            <p><input type="checkbox"> I have read the Terms and Conditions </p>
             <input id="click" onclick="run()" type="submit">
             <script>
                 function run() {
-                    document.getElementById("click").innerHTML = alert("Thank you for submitting your information.\nPlease check your email")
+                    document.getElementById("click").innerHTML = alert("Thank you for submitting your information.\nPlease check your email for UserID and Password")
                 }
             </script>
         </div>
         </form>
-  
+<!--Start of Footer-->
+<div class="footer">
+        <table>
+            <tr>
+                <td style="width: 20%;padding: 0px 50px 0px 0px;">
+                    <a href="../Homepage/index.html"><img src="../images/logo4.png" alt=""></a>
+                    <p style="text-align: justify;">The Social Stream Club is a world of Socializing, where you can meet new friends and spent your pleasure time with friends and family having lot of amenities</p>
+                </td>
+                <td>
+                    <h3>Quick Links</h3>
+                    <p><a href="../Aboutus/aboutus.html">About Us</a></p>
+                    <p><a href="../Joinus/joinus.html">Join Us</a></p>
+                    <p><a href="../Events/events.html">Events</a></p>
+                    <p><a href="../Contactus/contactus.html">Contact Us</a></p>
+                    <p><a href="../Homepage/login.html">Login</a></p>
+                    <p><a href="../Homepage/login.html">Lost And Found</a></p>
+                    <p><a href="../Homepage/login.html">Terms of Condition</a></p>
+                </td>
+                <td>
+                    <h3>Amenities</h3>
+                    <p><a href="../images/auditorium.jpg">Auditorium</a></p>
+                    <p><a href="../images/bar.jpg">Club</a></p>
+                    <p><a href="../images/communityhall.jpg">Community Hall</a></p>
+                    <p><a href="../images/dinninghall.jpg">Dinning Hall</a></p>
+                    <p><a href="../images/library.jpg">Library</a></p>
+                    <p><a href="../images/Outdoor-Sitting-Area-1.jpg">Outdoor Sitting</a></p>
+                    <p><a href="../images/swimming-pool.jpg">Swimming Pool</a></p>
+                </td>
+                <td style="border: none;">
+                    <h3>Contacts</h3>
+                    <p><img src="../images/phone.png" alt=""> +92(021)(111-222-333)</p>
+                    <p><img src="../images/phone.png" alt=""> +92(300)(765-4321)</p>
+                    <p><img src="../images/email.png" alt=""> info@socialstream.com</p>
+                    <h4>FOLLOW US ON</h4>
+                    <img src="../images/facebook.png" alt="">
+                    <img src="../images/twitter.png" alt="">
+                    <img src="../images/youtube.png" alt="">
+                    <img src="../images/google.png" alt="">
+                    <img src="../images/instagram.png" alt="">
+                </td>
+            </tr>
+    
+        </table>
+    </div>
+    <!--End of Footer-->
 </body>
 </html>
