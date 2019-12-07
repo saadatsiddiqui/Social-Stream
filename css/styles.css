@@ -66,11 +66,9 @@ body{
     padding: 20px 50px;
 }
 .explore fieldset {
-    /*overflow: hidden;*/
     text-align: center;
     position: absolute;
     top: 620px;
-    
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -87,8 +85,8 @@ body{
 .sections table{
     position: absolute;
     top: 50%;
-    border-spacing: 30px 10px;
-    margin: 375px 150px 10px 150px; 
+    border-spacing: 20px 20px;
+    margin: 385px 0px 10px 0px; 
    }
 .sections td{
     width: 20px; 
@@ -286,12 +284,53 @@ body{
     position: relative;
     top: 500px;
 }
-/*Amenities page Styling Ends Here*/ 
+/*Amenities page Styling Ends Here*/
+/*Membership page Styling Ends Here*/
+.details{
+    position: absolute;
+    top: 650px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.membership-sections fieldset {
+    text-align: center;
+    position: relative;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 90%;
+    margin: 0px 50px;
+    border: none;
+    border-top: 2px solid blue;
+  }
+  .membership-sections fieldset legend{
+    text-align: center;
+    padding: 0px 20px;
+  }
+.membership-sections{
+    position: relative;
+    top: 750px;
+}
+.membership-sections table{
+    border-spacing: 85px 5px;
+}
+.membership-sections td{
+ width: 200px;   
+ background-color: white;
+ box-shadow: 5px 5px 10px black;
+ border-radius: 5px 5px;
+}
+.plans-footer{
+    position: relative;
+    bottom: 350px;
+    
+}
+/*Membership page Styling Ends Here*/ 
+/*Join Us page Styling starts Here*/ 
 .joinus-top{   
     position: absolute;
     left: 20%;   
 }
-/*Join Us page Styling starts Here*/ 
 .joinus-content{
     width: 85%;
     height: 240px;
@@ -352,3 +391,110 @@ body{
     padding: 10px;
 }
 /*Join us page Styling Ends Here*/ 
+/*Login page Styling Starts Here*/ 
+.login-heading h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 10px 50px;
+}
+.login fieldset{
+    border: none;
+    color: gray;
+    margin: 50px 100px;
+    padding: 10px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login fieldset legend{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+.login fieldset input{
+    width: 90%;
+    padding: 10px 0px;
+}
+/*Login page Styling Ends Here*/ 
+/*About Us page Styling Starts Here*/ 
+.aboutus{
+    position: relative;
+    top: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+}
+.feedback-heading{
+    text-align: center;
+    font-size: 22px;
+}
+.feedback{
+    background-color: blue;
+    position: relative;
+    top: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px 0px;
+}
+.icon{
+    margin: 35px 25px;
+    
+}
+.yourfeedback{
+    background-color: white;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 450px;
+    
+    padding: 10px 30px 50px 30px;
+}
+.yourfeedback h1{
+    padding: 10px 50px 0px 50px;
+    font-size: 50px;
+}
+.text input{
+color: lightgray;
+padding: 10px 20px;
+border-radius: 5px;
+}
+.sr{
+    background-color: gold;
+    margin: 0% 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 3px orange;
+
+}
+.address-heading{
+    position: relative;
+    top: 420px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 22px;    
+    padding: 20px 0px;
+}
+.address{
+    position: relative;
+    top: 400px;
+    background-color: blue ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+    color: white;   
+    padding: 20px 50px;
+}
+.address p{
+    text-align: center;
+}
+.address table{
+    border-spacing: 40px 0px;
+    padding: 0px 200px;   
+}
+.aboutus-bottom{
+    position: absolute;
+    top: 1070px;
+    width: 100%;
+}
+/*About Us page Styling Ends Here*/ 
